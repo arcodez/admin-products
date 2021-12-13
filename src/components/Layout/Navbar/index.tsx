@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="d-flex align-items-center justify-content-between">
           <a href="index.html" className="logo d-flex align-items-center">
             <img src="assets/img/logo.png" />
-            <span className="d-none d-lg-block">NiceAdmin</span>
+            <span className="d-none d-lg-block">ArCodez</span>
           </a>
           <i
             onClick={() => handleAside()}
@@ -224,18 +224,18 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
               >
                 <img
-                  src="assets/img/profile-img.jpg"
+                  src="https://avatars.githubusercontent.com/u/69878476?v=4"
                   alt="Profile"
                   className="rounded-circle"
                 />
                 <span className="d-none d-md-block dropdown-toggle ps-2">
-                  K. Anderson
+                 Arcodez
                 </span>
               </a>
               {/* End Profile Iamge Icon */}
               <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                 <li className="dropdown-header">
-                  <h6>Kevin Anderson</h6>
+                  <h6>Abel</h6>
                   <span>Web Designer</span>
                 </li>
                 <li>
